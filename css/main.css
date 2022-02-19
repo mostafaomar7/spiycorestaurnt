@@ -1,0 +1,266 @@
+.ul{
+    margin-left: 60%;
+}
+.ul li{
+    margin-right: 24px;
+    font-size: 20px;
+    margin-top: 3px;
+}
+.logo{
+    font-size: 24px;
+}
+.logo:hover{
+    color: #F0B27A;
+}
+nav i {
+    color: rgb(248, 18, 18);
+    margin-right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+ul a:hover{
+    color: #F0B27A;
+    border-bottom:1px solid #F0B27A ;
+    text-decoration: none;
+}
+@media (max-width:1000px){
+    .ul{
+        margin-left: 0px;
+    }
+}
+#home{
+    background-image: url(../img/order-food-table-empty-background\ \(1\).jpg);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.txt{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    text-align: center;
+}
+.txt h1{
+    font-size: 55px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.txt p{
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 23px;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+    margin-top: 25px;
+}
+@media (max-width:1000px){
+    .txt{
+        
+        left: 3%;
+        text-align: center;
+    }
+    .txt h1{
+        font-size: 30px;
+    }
+    .txt p{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+}
+.txt2 p{
+    letter-spacing: 3px;
+    line-height: 1.7em;
+    font-size: 20px;
+    color: gray;
+    
+}
+@media (max-width:1000px){
+    .txt2 p{
+        font-size: 15px;
+        line-height: 2em;
+        letter-spacing: 1px;
+    }
+}
+
+.box{
+    border: 2px solid gray;
+    height: 400px;
+}
+.box:hover{
+    border-color: #0d6efd;
+}
+.box img{
+    width: 150px;
+    border-radius: 50%;
+}
+.box button{
+    width: 120px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #0d6efd;
+    transition: 1s;
+    
+}
+.box button:hover{
+    background: none;
+    color: blue;
+    box-shadow: 1px 1px 9px blueviolet;
+}
+#portifilo h1{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.card{
+    min-height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+.card p{
+    height: 0px;
+    overflow: hidden;
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    background-color: #00000073;
+    padding: 20px;
+    transition: 1s;
+    opacity: 0;
+}
+.card:hover p{
+ height: 100%;
+ opacity: 1;
+}
+.card:hover img{
+    transform: scale(1.2);
+}
+.box1 {
+    border: 1px solid black;
+    height: 250px;
+    box-shadow: 1px 1px 5px black;
+}
+.box1 img{
+    width: 100%;
+    
+}
+.box1 p{
+    height: 0px;
+    overflow: hidden;
+    transition: 1s;
+}
+.box1 button{
+    width: 120px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #0d6efd;
+    transition: 1s;
+}
+input{
+    border-radius: 30px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.inp1{
+    margin-right: 10px;
+    width: 35%;
+    margin-left: 13.5%;
+    height: 40px;
+}
+.inp2{
+    width: 37%;
+    height: 40px;
+}
+.inp3{
+    height: 80px;
+    width: 75%;
+}
+textarea{
+    padding: 10px;
+    width: 75%;
+}
+.cont button{
+    border-radius: 35px;
+}
+@media (max-width:1000px){
+    .inp1{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .inp2{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .inp3{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+}
+.person{
+    width: 100%;
+
+}
+.person img{
+    width: 110%;
+}
+.bg{
+    background-color: black;
+    width: 100%;
+    height: 475px;
+}
+.bg h1{
+    font-weight: bold;
+    font-family:serif;
+    letter-spacing: 2px;
+}
+.bg button{
+    width: 190px;
+    font-size: 20px;
+}
+.bg a{
+    text-decoration: none;
+    color: black;
+}
+.bg button:hover{
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+.bg button:hover a{
+    color: white;
+}
+.all{
+    width: 100%;
+    overflow: hidden;
+}
+@media (max-width:1000px){
+ .person{
+    margin-left: 5px;
+ }
+ .bg{
+    margin-left: 20px;
+ }
+}
+footer p{
+    font-size: 30px;
+}
