@@ -59,7 +59,7 @@ ul a:hover{
     line-height: 1.2em;
     margin-top: 25px;
 }
-@media (max-width:1000px){
+@media (max-width:1100px){
     .txt{
         
         left: 3%;
